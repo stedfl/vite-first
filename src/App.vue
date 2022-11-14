@@ -10,8 +10,10 @@ export default {
 
 <template>
   <div class="container">
-    <h1>Hello!</h1>
-    <AppTitle/>
+    <div class="main-wrap">
+      <h1>Hello World!</h1>
+      <AppTitle/>
+    </div>
   </div>
   
 </template>
@@ -19,9 +21,8 @@ export default {
 
 
 <style>
-.container {
-  width: 70%;
-  margin: 0 auto;
+.main-wrap {
+  text-align: center;
 }
 
 </style>

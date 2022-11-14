@@ -19,6 +19,10 @@ export default {
 
 
 
-<style>
+<style scoped>
+h2 {
+  margin-top: 1rem;
+  color:brown;
+}
 
 </style>
