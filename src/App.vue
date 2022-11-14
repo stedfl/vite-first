@@ -4,6 +4,11 @@ export default {
   name: 'App',
   components: {
     AppTitle
+  },
+  data() {
+    return {
+      generalTitle: 'Hello World!'
+    }
   }
 }
 </script>
@@ -11,7 +16,7 @@ export default {
 <template>
   <div class="container">
     <div class="main-wrap">
-      <h1 class="hello">Hello World!</h1>
+      <h1 class="hello">{{generalTitle}}</h1>
       <AppTitle/>
     </div>
   </div>
