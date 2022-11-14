@@ -21,8 +21,9 @@ export default {
 
 <style scoped>
 h2 {
-  margin-top: 1rem;
-  color:brown;
+  margin-top: 2rem;
+  color:blanchedalmond;
+  font-size: 2.5rem;
 }
 
 </style>

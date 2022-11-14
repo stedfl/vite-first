@@ -11,7 +11,7 @@ export default {
 <template>
   <div class="container">
     <div class="main-wrap">
-      <h1>Hello World!</h1>
+      <h1 class="hello">Hello World!</h1>
       <AppTitle/>
     </div>
   </div>
@@ -23,6 +23,13 @@ export default {
 <style>
 .main-wrap {
   text-align: center;
+  border: 1px solid white;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 5rem;
 }
 
 </style>
